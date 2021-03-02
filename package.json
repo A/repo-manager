@@ -1,0 +1,25 @@
+{
+  "name": "github-repo-manager",
+  "desicription": "CLI tool to bulk clone your github repos",
+  "version": "0.1.0",
+  "files": "dist",
+  "bin": {
+    "repo-manager": "bin/repo-manager"
+  },
+  "license": "WTFPL",
+  "scripts": {
+    "prepublish": "tsc",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@octokit/core": "^3.2.4",
+    "@types/node": "^14.14.31",
+    "commander": "^7.1.0",
+    "minimatch": "^3.0.4",
+    "typescript": "^4.1.5",
+    "untildify": "^4.0.0"
+  },
+  "devDependencies": {
+    "@types/minimatch": "^3.0.3"
+  }
+}

@@ -1,8 +1,7 @@
 {
   "name": "github-repo-manager",
   "desicription": "CLI tool to bulk clone your github repos",
-  "version": "0.1.0",
-  "files": "dist",
+  "version": "0.1.1",
   "bin": {
     "repo-manager": "bin/repo-manager"
   },
